@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import SignIn from './components/Signin'
 import Home from './components/Home'
 import SignUp from './components/SignUp.Popup'
+import Signup from './components/Signup'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path='/SignIn' element={<SignIn />}></Route>
         <Route path='/Booknow' element={<Home/>}></Route>
         <Route path='/SignUp' element={<SignUp />}></Route>
+        <Route path='/Signup' element={<Signup />}></Route>
       </Routes>
     </BrowserRouter>
   )
